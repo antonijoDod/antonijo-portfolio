@@ -5,7 +5,7 @@ module.exports = {
     title: 'Antonijo Đođ',
     description:
       'Antonijo Đođ is a full stack web developer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
-    siteUrl: 'https://antonoijo.com', // No trailing slash allowed!
+    siteUrl: 'https://antonijo.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@antonijoDod',
   },
@@ -151,25 +151,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-45666519-2',
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: '262199733',
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: true,
-        // Setting this parameter is optional
-        anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
-        // Avoids sending pageview hits from custom paths
-        exclude: ['/preview/**', '/do-not-track/me/too/'],
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: 'antonijo.com',
+        trackingId: 'G-YZ41GNP2B9',
       },
     },
   ],
