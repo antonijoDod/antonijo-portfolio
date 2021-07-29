@@ -52,7 +52,8 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <p>
-      I'm a full stack web developer based in Croatia, specializing in building exceptional websites, applications, and everything in between.
+      I'm a frontend web developer, specializing in building exceptional websites, applications, and
+      everything in between.
     </p>
   );
   const five = (
